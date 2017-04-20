@@ -1,0 +1,396 @@
+/* CSS Document */
+body{
+	FONT-SIZE: 12px; 
+	COLOR: #000000; 
+	TEXT-DECORATION: none;
+	BACKGROUND-COLOR: #ffffff;
+	margin:0;
+	padding:0;
+	background:url(/icbc/newperbank/images/login/bg.jpg) center top no-repeat;
+}
+a{  
+	font-size: 12px; 
+	color: #000000; 
+	text-decoration: none
+}
+a:hover {  
+	font-size: 12px; 
+	color: #CC0033; 
+	text-decoration: underline
+}
+h3{
+	font-size:20px;
+}
+h5{
+	font-size:12px;
+}
+big{
+	font-size:20px;
+}
+
+/*td {
+	FONT-SIZE: 12px; 
+	TEXT-DECORATION: none; 
+	line-height:18px;
+}*/
+
+#tooltip2 td,#tooltip3 td{
+	FONT-SIZE: 12px; 
+	TEXT-DECORATION: none; 
+	line-height:18px;
+}
+
+
+a.link_top:link {
+	COLOR: #000000; TEXT-DECORATION: none;
+}
+a.link_top:visited {
+	COLOR: #000000; TEXT-DECORATION: none;
+}
+a.link_top:hover {
+	COLOR: #BC001F; TEXT-DECORATION: underline;
+}
+a.link_red:link {
+	COLOR: #BA0403; TEXT-DECORATION: none; 
+}
+a.link_red:visited {
+	COLOR: #BA0403; TEXT-DECORATION: none;
+}
+a.link_red:hover {
+	COLOR: #000000; TEXT-DECORATION: underline;
+}
+.icbc-logo{
+	width: 100%;
+	height: 100%;
+	background:url(/icbc/newperbank/images/login/icbc-logo.png) no-repeat;
+}
+.table-top{
+	width:889px;
+	border:0;
+}
+.table-middle{
+	width:889px;
+	border:0;
+}
+
+.table-bottom{
+	 border:0;
+	 width:883px;
+	 height:49px;
+	 background:url(/icbc/newperbank/images/login/footer.png) no-repeat;
+	
+}
+.table-bottom td {
+	FONT-SIZE: 12px; 
+	TEXT-DECORATION: none; 
+	line-height:18px;
+}
+
+#mainArea{
+	width: 889px;
+	height: 474px;
+	position: relative;
+	/*margin: 0px auto;*/
+	background: url(/icbc/newperbank/images/login/main-area.png) center no-repeat;
+}
+#mainContent{
+	width: 885px;
+	height: 467px;
+	position: relative;
+	top: 10px;
+	left: 4px;
+}
+#topArea{
+	width: 878px;
+	height:320px;
+	position:relative;
+}
+.adArea{
+	width:520px;
+	height:315px;
+	position:relative;
+	float:left;
+}
+.adArea img{
+	border-style:none;
+	width:520px;
+	height:315px;
+}
+.adArea ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.adArea ul li{
+	display:none;
+	width:520px;
+	height:315px;
+	background: url(/icbc/newperbank/images/login/loader.gif) center center no-repeat;
+}
+
+#loginArea{
+	width:358px;
+	height:315px;
+	position:relative;
+	float:left;
+}
+/* login area*/
+.login-title{
+	height: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	color:#E02619;
+	/*margin: 10px 8px 30px 8px;*/
+	margin: 10px 8px;
+}
+
+#loginContent{
+	width: 350px;
+	height: 280px;
+	position: relative;
+	top: 48%;
+	left: 50%;
+	margin: -150px 0 0 -175px;
+	font-family:Microsoft yahei;
+}
+
+.input-area{
+	position: relative;
+	height: 50px;
+	overflow:hidden;
+	padding-left:8px;
+	margin-top:6px;
+}
+.input-label{
+	position:relative;
+	/*text-align:right;
+	float:left;
+	height:28px;
+	line-height:28px;
+	width:72px;*/
+	height:16px;
+	line-height:16px;
+	font-size:12px;
+	margin-bottom:2px;
+	color:#666666;
+	font-weight:bold;
+}
+.input-area-btn{
+	text-align:center;
+	margin-bottom:8px;
+}
+.place-holder{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000;
+	cursor: text;
+}
+.place-holder-alias{
+	color:#8D8686;
+}
+.place-holder-focus{
+	color:#ddd;
+}
+.input-wrapper-uin{
+	height: 28px;
+	width: 335px;
+	/*background: url(/icbc/newperbank/images/login/uin.png) no-repeat;
+	float:left;*/
+	position: relative;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+	margin-right: 1px;
+}
+.input-wrapper-pwd{
+	/*background: url(/icbc/newperbank/images/login/pwd.png) no-repeat;*/
+	width: 335px;
+	height: 28px;
+	position: relative;
+	float: left;
+	margin-right: 1px;
+	overflow:hidden;
+}
+.tip-img{
+	float:left;
+	border:0;
+}
+.tip-link{
+	font-size: 12px;
+	margin: 0 15px 0 0;
+	float:right;
+}
+.tip-link a{
+	color:#5aa5ff;
+	TEXT-DECORATION: underline;
+	cursor:pointer;
+	
+}
+.input-wrapper-vcode{
+	width: 250px;
+	height: 28px;
+	/*background: url(/icbc/newperbank/images/login/vcode.png) no-repeat;*/
+	position: relative;
+	float: left;
+	overflow:hidden;
+}
+.pwd-obj-wrapper{
+	position: relative;
+	left: 64px;
+	top: 5px;
+}
+.vcode-obj-wrapper{
+	width: 44px;
+	height: 
+	position: relative;
+	left: 51px;
+	top: 5px;
+}
+.vcode-img-wrapper{
+	position: relative;
+	width: 85px;
+	height: 30px;
+	float: left;
+	margin-left:2px;
+	display:none;
+}
+.input-wrapper-mode{
+	width:200px;
+	height:36px;
+}
+.input-wrapper-mode .radio-btn{
+	display: block;
+	width: 75px;
+	height: 36px;
+	cursor: pointer;
+	position: relative;
+	line-height: 36px;
+	padding-left: 8px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	TEXT-DECORATION: none;
+}
+.input-wrapper-mode #standardMode{
+	float:left;
+}
+.input-wrapper-mode #simpleMode{
+	float:right;
+}
+
+#modeSelect {
+	height:40px;
+}
+.unchecked{
+	background: url(/icbc/newperbank/images/login/unchecked.png) no-repeat;
+	background-position:left center;
+}
+.checked{
+	background: url(/icbc/newperbank/images/login/checked.png) no-repeat;
+	background-position:left center;
+}
+.input-style{
+	width:330px;
+	position: relative;
+	top: 4px;
+	left: 2px;
+	height: 20px;
+	line-height: normal;
+	border: none;
+	background: none;
+	font-size: 12px;
+	outline: none;
+}
+.input-btn-wrapper {
+	width:335px;
+	height:40px;
+	line-height:40px;
+	margin:0 auto;
+	background-color:#f4734a;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+}
+.clickable-btn {
+	text-decoration:none;
+	cursor:pointer;
+}
+#downArea{
+	overflow-y: hidden;
+	position: relative;
+	top: 12px;
+	left: 24px;
+}
+
+.quick-menu-box{
+	box-sizing:border-box;
+	width:140px;
+	position: relative;
+	float: left;
+}
+.quick-menu-title{
+	height:30px;
+	line-height:30px;
+	font-size:20px;
+	font-weight:bold;
+	padding-left: 30px;
+	color:#666363;
+}
+.assist{
+	background:url(/icbc/newperbank/images/login/assist.png) no-repeat
+}
+.security{
+	background:url(/icbc/newperbank/images/login/security.png) no-repeat
+}
+.regist{
+	background:url(/icbc/newperbank/images/login/regist.png) no-repeat
+}
+.more{
+	background:url(/icbc/newperbank/images/login/more.png) no-repeat
+}
+.quick-menu-content{
+    padding-left: 10px;
+}	
+.vertical-line{
+	height: 70px;
+	position: relative;
+	float: left;
+	width: 1px;
+	background-color: gray;
+}
+.quick-menu-list{
+	margin: 0 0px 0 22px;
+	padding: 0;
+}
+.quick-menu-list li{ 
+	list-style-image:url(/icbc/newperbank/images/login/li.png);
+	list-style-position:outside;
+	line-height: 18px;
+	font-size:12px;
+}
+.dowload-tool-tip{
+	position: relative;
+	float: left;
+	width:237px;
+	height:102px;
+	margin: auto 26px;
+	background:url(/icbc/newperbank/images/login/icbc-assist-tip.png) no-repeat;
+	overflow:hidden;
+}
+.inner-tip-wrapper{
+	position: relative;
+	color: #666363;
+	font-size: 13px;
+	width: 200px;
+	height: 40px;
+	top: 50%;
+	left: 50%;
+	margin: -5px 0 0 -100px;
+}
+.inner-tip-wrapper img{
+	vertical-align:bottom;
+}

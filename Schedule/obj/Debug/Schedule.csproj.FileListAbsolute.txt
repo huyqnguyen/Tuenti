@@ -1,0 +1,6 @@
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Schedule\bin\Debug\Schedule.exe.config
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Schedule\bin\Debug\Schedule.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Schedule\bin\Debug\Schedule.pdb
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Schedule\obj\Debug\Schedule.csprojResolveAssemblyReference.cache
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Schedule\obj\Debug\Schedule.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Schedule\obj\Debug\Schedule.pdb

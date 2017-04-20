@@ -1,0 +1,6 @@
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\SOLID\bin\Debug\SOLID.exe.config
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\SOLID\bin\Debug\SOLID.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\SOLID\bin\Debug\SOLID.pdb
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\SOLID\obj\Debug\SOLID.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\SOLID\obj\Debug\SOLID.pdb
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\SOLID\obj\Debug\SOLID.csprojResolveAssemblyReference.cache

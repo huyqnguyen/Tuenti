@@ -1,0 +1,9 @@
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Titanium Proxy\bin\Debug\Titanium Proxy.exe.config
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Titanium Proxy\bin\Debug\Titanium Proxy.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Titanium Proxy\bin\Debug\Titanium Proxy.pdb
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Titanium Proxy\bin\Debug\Ionic.Zip.dll
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Titanium Proxy\bin\Debug\Titanium.Web.Proxy.dll
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Titanium Proxy\bin\Debug\Ionic.Zip.xml
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Titanium Proxy\obj\Debug\Titanium Proxy.csprojResolveAssemblyReference.cache
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Titanium Proxy\obj\Debug\Titanium Proxy.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Titanium Proxy\obj\Debug\Titanium Proxy.pdb

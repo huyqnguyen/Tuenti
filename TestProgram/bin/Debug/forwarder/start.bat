@@ -1,0 +1,1 @@
+start /B  ..\php\php.exe autostart.php

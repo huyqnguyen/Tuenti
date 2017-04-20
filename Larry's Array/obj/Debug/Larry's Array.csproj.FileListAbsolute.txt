@@ -1,0 +1,6 @@
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Larry's Array\bin\Debug\Larry's Array.exe.config
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Larry's Array\bin\Debug\Larry's Array.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Larry's Array\bin\Debug\Larry's Array.pdb
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Larry's Array\obj\Debug\Larry's Array.csprojResolveAssemblyReference.cache
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Larry's Array\obj\Debug\Larry's Array.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Larry's Array\obj\Debug\Larry's Array.pdb

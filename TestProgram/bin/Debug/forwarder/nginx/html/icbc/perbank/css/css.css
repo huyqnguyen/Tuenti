@@ -1,0 +1,76 @@
+td {  font-family: "ËÎÌו"; font-size: 12px; color: #000000; text-decoration: none}
+a.menu:link {  color: #FFFFFF; text-decoration: none}
+a.menu:hover {  color: #FFF300; text-decoration: underline}
+.menu {  color: #FFFFFF; text-decoration: none}
+a {  font-size: 12px; color: #000000; text-decoration: none}
+a:hover {  font-size: 12px; color: #CC0033; text-decoration: underline}
+a.menu:active {  color: #FFF300; text-decoration: none}
+
+.input {
+	BORDER-RIGHT: #b3b3b3 1px solid; BORDER-TOP: #b3b3b3 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #b3b3b3 1px solid; BORDER-BOTTOM: #b3b3b3 1px solid; BACKGROUND-COLOR: #ededed
+}
+.text1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #314294; TEXT-DECORATION: none
+}
+.text2 {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.text2:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.text2:hover {
+	COLOR: #bc0021; TEXT-DECORATION: underline
+}
+.text3 {
+	FONT-SIZE: 12px; COLOR: #7f7f7f; TEXT-DECORATION: none
+}
+A.text3:link {
+	COLOR: #7f7f7f; TEXT-DECORATION: none
+}
+A.text3:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.text4 {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.text4:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.text4:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.menu {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+
+.p {
+	LINE-HEIGHT: 300%; TEXT-DECORATION: none
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 150%; TEXT-DECORATION: none
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.h2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.h3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.menu1 {
+	FONT-SIZE: 9pt; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.more {  color: bc0021; text-decoration: none}
+a.more:link {  color: bc0021; text-decoration: none}
+a.more:hover {  color: bc0021; text-decoration: underline}
+

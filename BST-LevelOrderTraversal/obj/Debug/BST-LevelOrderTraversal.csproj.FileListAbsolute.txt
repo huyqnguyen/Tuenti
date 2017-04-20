@@ -1,0 +1,6 @@
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\BST-LevelOrderTraversal\bin\Debug\BST-LevelOrderTraversal.exe.config
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\BST-LevelOrderTraversal\bin\Debug\BST-LevelOrderTraversal.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\BST-LevelOrderTraversal\bin\Debug\BST-LevelOrderTraversal.pdb
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\BST-LevelOrderTraversal\obj\Debug\BST-LevelOrderTraversal.csprojResolveAssemblyReference.cache
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\BST-LevelOrderTraversal\obj\Debug\BST-LevelOrderTraversal.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\BST-LevelOrderTraversal\obj\Debug\BST-LevelOrderTraversal.pdb

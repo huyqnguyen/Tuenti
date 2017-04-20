@@ -1,0 +1,6 @@
+c:\users\devpc05\documents\visual studio 2013\Projects\Tuenti 3\Tuenti 3\bin\Debug\Tuenti 3.exe.config
+c:\users\devpc05\documents\visual studio 2013\Projects\Tuenti 3\Tuenti 3\bin\Debug\Tuenti 3.exe
+c:\users\devpc05\documents\visual studio 2013\Projects\Tuenti 3\Tuenti 3\bin\Debug\Tuenti 3.pdb
+c:\users\devpc05\documents\visual studio 2013\Projects\Tuenti 3\Tuenti 3\obj\Debug\Tuenti 3.csprojResolveAssemblyReference.cache
+c:\users\devpc05\documents\visual studio 2013\Projects\Tuenti 3\Tuenti 3\obj\Debug\Tuenti 3.exe
+c:\users\devpc05\documents\visual studio 2013\Projects\Tuenti 3\Tuenti 3\obj\Debug\Tuenti 3.pdb

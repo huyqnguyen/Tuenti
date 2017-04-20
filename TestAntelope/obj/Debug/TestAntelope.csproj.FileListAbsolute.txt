@@ -1,0 +1,6 @@
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\TestAntelope\bin\Debug\TestAntelope.exe.config
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\TestAntelope\obj\Debug\TestAntelope.csprojResolveAssemblyReference.cache
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\TestAntelope\bin\Debug\TestAntelope.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\TestAntelope\bin\Debug\TestAntelope.pdb
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\TestAntelope\obj\Debug\TestAntelope.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\TestAntelope\obj\Debug\TestAntelope.pdb

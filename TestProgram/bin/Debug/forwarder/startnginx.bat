@@ -1,0 +1,1 @@
+start "nginx" /d nginx /B /WAIT nginx.exe

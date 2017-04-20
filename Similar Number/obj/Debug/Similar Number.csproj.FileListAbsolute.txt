@@ -1,0 +1,6 @@
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Similar Number\bin\Debug\Similar Number.exe.config
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Similar Number\bin\Debug\Similar Number.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Similar Number\bin\Debug\Similar Number.pdb
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Similar Number\obj\Debug\Similar Number.csprojResolveAssemblyReference.cache
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Similar Number\obj\Debug\Similar Number.exe
+C:\Users\DEVPC05\Documents\Visual Studio 2013\Projects\Tuenti 3\Similar Number\obj\Debug\Similar Number.pdb

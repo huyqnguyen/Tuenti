@@ -1,0 +1,629 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Welcome to BRI Internet Banking</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Keywords" content="keyword">
+<meta name="Description" content="description">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">  
+<script type="text/javascript" src="js/page-css-filter.js"></script> 
+<!--[if !IE]><!-->
+	<!--<link href="https://ib.bri.co.id/ib-bri/css/page.css" rel="stylesheet" type="text/css">-->
+	<link href="https://ib.bri.co.id/ib-bri/css/simplegrid.css" rel="stylesheet" type="text/css">
+<!--<![endif]-->
+<!--[if IE 9]>
+	<!--<link href="https://ib.bri.co.id/ib-bri/css/page.css" rel="stylesheet" type="text/css">-->
+	<link href="https://ib.bri.co.id/ib-bri/css/simplegrid.css" rel="stylesheet" type="text/css">
+<!--<![endif]-->
+<!--[if IE 8]>
+	<link href = https://ib.bri.co.id/ib-bri/css/page_ie8.css rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 7]>
+	<link href="https://ib.bri.co.id/ib-bri/css/page_ie8.css" rel="stylesheet" type="text/css">
+<!--<![endif]-->
+<!--[if IE 6]>
+	<link href="https://ib.bri.co.id/ib-bri/css/page_ie8.css" rel="stylesheet" type="text/css">
+<!--<![endif]-->
+<link href = "css/loading.css" rel="stylesheet" type="text/css"> 
+<script type="text/javascript" src="js/ajax_clock.js"></script>
+<script type="text/javascript" src="js/loading-control.js"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+// make this file always show in the _top window
+top.location.target="_top";
+if(window.location.target != "_top") 
+   top.location.href=window.location.href;
+//-->
+</script>
+<script language="JavaScript" type="text/javascript">
+function checkBrowser()
+{
+	var ua = window.navigator.userAgent;
+	var msie = ua.indexOf ( "MSIE " );
+
+	if ( msie > 0 )
+	{	// If Internet Explorer, return version number
+		var ie = parseInt (ua.substring (msie+5, ua.indexOf (".", msie )));;
+		return parseInt (ua.substring (msie+5, ua.indexOf (".", msie )));
+	}
+	else          
+	{	// If another browser, return 0
+		return 0;
+	}
+}
+
+function linkFrames(u1, u2)
+{
+	parent.menus.location = u1;
+	parent.content.location = u2;
+} 
+
+if ( navigator.appName == "Netscape" )
+{
+    document.captureEvents(Event.MOUSEUP)
+    document.captureEvents(Event.KEYPRESS)
+}
+
+document.onmouseup = reset;
+document.onkeypress = reset;
+
+var time = 0;
+var idle = 0;
+var section = "welcome";
+var timer = null;
+var interval = 5000;
+
+function reset ( e )
+{
+   time=1;
+   idle=0;
+}
+
+function start()
+{
+   if (600000!=-1){
+      timer = setInterval("timeout()",interval);
+   }
+}   
+
+function timeout()
+{
+	if ( time == 0 && (idle*interval>600000) ) {
+		//alert("Your session is expired. Please login again.");
+		//document.location= 'https://ib.bri.co.id/ib-bri/'+'Logout.html';
+		document.location= 'https://ib.bri.co.id/ib-bri/'+'Logout.html/auto';
+		clearInterval ( timer );
+	} else {
+		idle++;
+   	    window.status = "Interval " + (idle*interval/1000) + " seconds"; 
+	}
+	time=0;
+}
+
+function check()
+{
+	var heights = document.documentElement.scrollHeight;
+	document.getElementById("iframemenu").style.height = heights - 250 + "px";
+}   
+
+function getDocHeight(doc) {
+    doc = doc || document;
+    // stackoverflow.com/questions/1145850/
+    var body = doc.body, html = doc.documentElement;
+    var height = Math.max( body.scrollHeight, body.offsetHeight, 
+        html.clientHeight, html.scrollHeight, html.offsetHeight );
+    return height;
+}
+
+function setIframeHeight(id) {
+    var ifrm = document.getElementById(id);
+    var doc = ifrm.contentDocument? ifrm.contentDocument: 
+        ifrm.contentWindow.document;
+    ifrm.style.visibility = 'hidden';
+    ifrm.style.height = "10px"; // reset to minimal height ...
+    // IE opt. for bing/msn needs a bit added or scrollbar appears
+	if(checkBrowser() == 0){
+		if(id=="iframemenu")
+			ifrm.style.height = getDocHeight( doc ) + 30 + "px";
+		else
+			ifrm.style.height = getDocHeight( doc ) + 4 + "px";
+	} else {
+		if(id=="iframemenu"){
+			if(getDocHeight( doc ) < 480)
+				ifrm.style.height = 480 + "px";
+			else
+				ifrm.style.height = getDocHeight( doc ) + 30 + "px";
+		}
+		else {
+			if(getDocHeight( doc ) < 480)
+				ifrm.style.height = 480 + "px";
+			else
+				ifrm.style.height = getDocHeight( doc ) + 4 + "px";
+		}
+	}
+    ifrm.style.visibility = 'visible';
+}
+
+function frameload()
+{
+	var checkbrowser = checkBrowser();
+	var width = parseInt(window.innerWidth);
+	
+	if(checkbrowser == 0)
+	{
+		document.getElementById("content").addEventListener('load', function() {
+			if (width >= 900)
+				window.scroll(0,98);
+		});
+	}
+	
+	reqClock();
+	//setInterval(reqClock,1000);
+}
+ 
+function div_show() {
+	document.getElementById('abc').style.display = "block";
+	return false;
+}
+
+start();  
+</script>
+<script>
+function clickedParentMenu(link1, link2, id)
+{
+	document.getElementById('loading-page').style.display = 'block';
+	reloadframes(link1, link2);
+	var testimonials = document.querySelectorAll('.parentmenu a');
+	
+	for(var i = 0; i < testimonials.length; i++) {
+	  testimonials[i].className =  testimonials[i].className.replace("active", "");
+	}
+	
+	var d = document.getElementById(id);
+	var dfix = document.getElementById(id+'-fix');
+	d.className = d.className + " active";
+	dfix.className = dfix.className + " active";
+	
+	return true;
+}
+
+function clickedParentMenuFix(link1, link2, id)
+{
+	document.getElementById('loading-page').style.display = 'block';
+	reloadframes(link1, link2);
+	var testimonials = document.querySelectorAll('.parentmenu a');
+	
+	for(var i = 0; i < testimonials.length; i++) {
+	  testimonials[i].className =  testimonials[i].className.replace("active", "");
+	}
+	
+	var nofix = id.split('-');
+	var d = document.getElementById(id);
+	var dnofix = document.getElementById(nofix[0]);
+	
+	d.className = d.className + " active";
+	dnofix.className = dnofix.className + " active";
+	
+	return true;
+}
+
+function clickedSideMenu(link1, link2, id)
+{
+	toggleMenu();
+	document.getElementById('loading-page').style.display = 'block';
+	reloadframes(link1, link2);
+	var testimonials = document.querySelectorAll('.sidemenu a');
+	for(var i = 0; i < testimonials.length; i++) { 
+	  testimonials[i].className =  testimonials[i].className.replace("active", "");
+	}
+	
+	var d = document.getElementById(id);
+	d.className = d.className + " active";
+	
+	return true;
+}
+
+function reloadframes(link1, link2){
+	parent.content.location=link1;
+	parent.menus.location=link2;
+}
+
+function toggleMenu(){
+	var MenuButton = document.getElementById('nav-trigger');
+	
+	if(MenuButton.checked){
+		MenuButton.checked = false;
+	}else{
+		MenuButton.checked = true;
+	}
+}
+</script>
+<script type="text/javascript">
+window.onscroll = function() {
+    var scrolltop = document.body.scrollTop;
+	var fixedbar = document.getElementById("fixedbar");
+	if(checkBrowser() == 0)
+	{
+		if(scrolltop >= 72) {
+			fixedbar.style.display = "block";
+		}
+		 
+		else if(scrolltop <= 72) {
+			fixedbar.style.display = "none";
+		}
+	} 
+}
+
+/* SCroll Mobile */
+function getScreenWidth(){
+	var width = parseInt(window.innerWidth);
+		
+		if (width <= 500){
+			window.onscroll = function() {
+				var scrolltop = document.body.scrollTop;
+				var fixedheader = document.getElementById("fixedheader");
+ 
+				if(scrolltop >= 2) {
+					fixedheader.style.display = "block";
+				}else if(scrolltop <= 2) {
+					fixedheader.style.display = "none";
+				}
+			}
+			console.log(true);
+		}
+}
+
+</script>
+</head>
+<body onload="frameload();getScreenWidth();">
+	<div id="fixedbar">
+		<div class="parentmenuwrap hide-on-mobile fix">
+			<div class="parentmenu grid">
+	<a onclick="return clickedParentMenuFix('defaultpg/default_page', 'MyAccount.html', this.id)" id="myaccounts-fix" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>My Account</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Balance &amp; Statement</span>
+				</td>
+			</tr>
+		</table>
+	</a>	
+	<a onclick="return clickedParentMenuFix('defaultpg/default_page', 'Transfer.html', this.id)" id="transfer-fix" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Transfer</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Within &amp; Other Bank</span>
+				</td>
+			</tr>
+		</table>
+	</a>	
+	<a onclick="return clickedParentMenuFix('defaultpg/default_page', 'Payment.html', this.id)" id="payment-fix" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Payment</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>My Bills</span>
+				</td>
+			</tr>
+		</table>
+	</a>
+	<a onclick="return clickedParentMenuFix('defaultpg/default_page', 'Purchase.html', this.id)" id="purchase-fix" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Purchase</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Voucher &amp; e-Money</span>
+				</td>
+			</tr>
+		</table>
+	</a>	
+	<a onclick="return clickedParentMenuFix('defaultpg/default_page', 'Services.html', this.id)" id="customer-fix" class="col-1-7">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Customer</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Services</span>
+				</td>
+			</tr>
+		</table>
+	</a>
+	<a onclick="return clickedParentMenuFix('MyActivity.html', 'Profile.html', this.id)" id="profile-fix" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Profile</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Management</span>
+				</td>
+			</tr>
+		</table>
+	</a>	
+</div>		</div>
+	</div>
+	<div class="nav-page">
+		<div class="sidemenu grid">
+	<a onclick="return clickedSideMenu('defaultpg/default_page', 'MyAccount.html', this.id)" id="myaccounts-side" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>My Account</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Balance &amp; Statement</span>
+				</td>
+			</tr>
+		</table>
+	</a>	
+	<hr class="faded" />
+	<a onclick="return clickedSideMenu('defaultpg/default_page', 'Transfer.html', this.id)" id="transfer-side" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Transfer</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Within &amp; Other Bank</span>
+				</td>
+			</tr>
+		</table>
+	</a>
+	<hr class="faded" />
+	<a onclick="return clickedSideMenu('defaultpg/default_page', 'Payment.html', this.id)" id="payment-side" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Payment</b></b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>My Bills</span>
+				</td>
+			</tr>
+		</table>
+	</a>
+	<hr class="faded" />
+	<a onclick="return clickedSideMenu('defaultpg/default_page', 'Purchase.html', this.id)" id="purchase-side" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Purchase</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Voucher &amp; e-Money</span>
+				</td>
+			</tr>
+		</table>
+	</a>
+	<hr class="faded" />
+	<a onclick="return clickedSideMenu('defaultpg/default_page', 'Services.html', this.id)" id="customer-side" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Customer</b></b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Services</span>
+				</td>
+			</tr>
+		</table>
+	</a>
+	<hr class="faded" />
+	<a onclick="return clickedSideMenu('MyActivity.html', 'Profile.html', this.id)" id="profile-side" class="col-1-6">
+		<table>
+			<tr>
+				<td>
+					<b>Profile</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Management</span>
+				</td>
+			</tr>
+		</table>
+	</a>
+	<hr class="faded" />
+</div>	</div>
+	
+	<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+	
+	<div class="main-page" id="main-page">
+        <input id="baseurl" type="hidden" value="https://ib.bri.co.id/ib-bri/" >
+		<div class="headerwrap">
+			<div class="header grid">
+				<div class="logoib col-1-2">
+					<label class="nav-button" for="nav-trigger"></label><img src="https://ib.bri.co.id/ib-bri/img/logoib1.png" width="205px"/>
+				</div>
+				<div class="uppernav col-1-2">
+					<span style="width: 100%; float: left; text-align: right">
+						<!--<a onclick="window.location.reload(true)">Home</a> &nbsp; &nbsp; |  &nbsp; &nbsp;-->
+						<a onclick="return reloadframes('Welcome.html', 'Profile.html')">Home</a> &nbsp; &nbsp; |  &nbsp; &nbsp;
+						<a onclick="return reloadframes('Inbox.html', 'Services.html')">Inbox</a> &nbsp; &nbsp; | &nbsp; &nbsp; 
+						<a onclick="return reloadframes('en/Br61100.html', 'Help.html')">Help</a> &nbsp; &nbsp; | &nbsp; &nbsp; 
+						<a href="Logout.html"><b>Logout</b></a>
+					</span>
+					<span style="width: 100%; float: left; margin-top: 7px; font-weight: bold; text-align: right">
+					<div id="clockbox" href="https://ib.bri.co.id/ib-bri/clock.html/en"></div>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div id="fixedheader">
+						<div class="headerwrap">	
+				<div class="header grid" >
+					<div class="logoib col-1-2">
+						<label class="nav-button" for="nav-trigger"></label><img src="https://ib.bri.co.id/ib-bri/img/logoib1.png" width="205px"/>
+					</div>
+					<div class="uppernav col-1-2">
+						<span style="width: 100%; float: left; text-align: right">
+							<!--<a onclick="window.location.reload(true)">Beranda</a> &nbsp; &nbsp; |  &nbsp; &nbsp;-->
+							<a onclick="return reloadframes('Welcome.html', 'Profile.html')">Home</a> &nbsp; &nbsp; |  &nbsp; &nbsp;
+							<a onclick="return reloadframes('Inbox.html', 'Services.html')">Inbox</a> &nbsp; &nbsp; | &nbsp; &nbsp; 
+							<a onclick="return reloadframes('id/Br61100.html', 'Help.html')">Help</a>  &nbsp; &nbsp; | &nbsp; &nbsp; 
+							<a href="Logout.html"><b>Logout</b></a>
+						</span>
+					</div>
+				</div>
+				<div class="ribbontopwrap">
+					<div class="ribbon grid">
+					</div>
+				</div>
+			</div>		</div>
+		<div class="ribbontopwrap">
+			<div class="ribbon grid">
+			</div>
+		</div>
+		<div class="parentmenuwrap">
+			<div class="parentmenu grid">
+	<a onclick="return clickedParentMenu('defaultpg/default_page', 'MyAccount.html', this.id)" id="myaccounts" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>My Account</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Balance &amp; Statement</span>
+				</td>
+			</tr>
+		</table>
+	</a>	
+	<a onclick="return clickedParentMenu('defaultpg/default_page', 'Transfer.html', this.id)" id="transfer" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Transfer</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Within &amp; Other Bank</span>
+				</td>
+			</tr>
+		</table>
+	</a>	
+	<a onclick="return clickedParentMenu('defaultpg/default_page', 'Payment.html', this.id)" id="payment" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Payment</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>My Bills</span>
+				</td>
+			</tr>
+		</table>
+	</a>
+	<a onclick="return clickedParentMenu('defaultpg/default_page', 'Purchase.html', this.id)" id="purchase" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Purchase</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Voucher &amp; e-Money</span>
+				</td>
+			</tr>
+		</table>
+	</a>	
+	<a onclick="return clickedParentMenu('defaultpg/default_page', 'Services.html', this.id)" id="customer" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Customer</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Services</span>
+				</td>
+			</tr>
+		</table>
+	</a>
+	<a onclick="return clickedParentMenu('MyActivity.html', 'Profile.html', this.id)" id="profile" class="col-1-6">
+		<table class="topmenu">
+			<tr>
+				<td>
+					<b>Profile</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Management</span>
+				</td>
+			</tr>
+		</table>
+	</a>	
+</div>		</div>
+		<div class="totalwrap grid" id="content2">
+			<div class="loading" id="loading-page" >
+				<img id="loading-img" src="img/loading_icon.gif"  class="loading-img">
+			</div>
+			<div class="grid mainformwrap">
+				<div class="col-3-12 sidenav">
+					<iframe id="iframemenu" src="https://ib.bri.co.id/ib-bri/Profile.html" name="menus" frameborder="0" scrolling="no" style="width: 100%;" onload="setIframeHeight(this.id)">
+						&lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
+					</iframe>
+				</div>
+				<div class="col-9-12 mainform"> 
+					<iframe id="content" class="contentz" src="https://ib.bri.co.id/ib-bri/Welcome.html" name="content" frameborder="0" scrolling="no" style="width: 100%;" onload="setIframeHeight(this.id)">
+						&lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div class="ribbonbottom" id="footer" style="background-color: #011e3b; border-top: solid #444 3px;">
+	<div class="ribfoot grid">
+		<div class="col-1-2"><a href='https://ib.bri.co.id/ib-bri/id/Br61120.html' target="content">Term and Condition</a>  |
+		<a href='https://ib.bri.co.id/ib-bri/id/Br61130.html' target="content">Privacy and Security Policy</a></div>
+		<div class="col-1-2"><span style="float:right">Copyright &copy; 2015 Bank Rakyat Indonesia (Persero) Tbk.</span></div>
+	</div>
+</div>
+
+<!-- BACKUP -->
+<!-- <div class="ribbonbottom grid">
+	<div class="col-1-2"><a href='https://ib.bri.co.id/ib-bri/id/Br61120.html' target="content">Syarat dan Ketentuan</a>  |  <a href='https://ib.bri.co.id/ib-bri/id/Br61200.html' target="content">Kebikan Privasi dan Keamanan</a>  </div>
+	<div class="col-1-2"><span style="float:right">&copy; Copyright 2015 Bank Rakyat Indonesia All Rights Reserved</span></div>
+</div> -->	</div>
+</body>
+</html>
